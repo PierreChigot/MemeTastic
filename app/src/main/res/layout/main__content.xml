@@ -28,7 +28,7 @@
             android:layout_marginBottom="16dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/meme__computer_guy__light" />
+            app:srcCompat="@drawable/meme__computer_guy__light" />
 
         <TextView
             android:id="@+id/main__activity__list_empty__text"
@@ -87,7 +87,7 @@
                 android:layout_marginLeft="6dp"
                 android:layout_marginRight="6dp"
                 android:layout_marginStart="6dp"
-                android:src="@drawable/ic_launcher" />
+                app:srcCompat="@drawable/ic_launcher" />
 
             <TextView
                 android:id="@+id/main__activity__infobar__text"
